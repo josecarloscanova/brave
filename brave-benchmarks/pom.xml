@@ -12,7 +12,7 @@
 
   <properties>
     <main.basedir>${project.basedir}/..</main.basedir>
-    <jmh.version>1.12</jmh.version>
+    <jmh.version>1.17.2</jmh.version>
   </properties>
 
   <dependencies>
@@ -27,6 +27,12 @@
       <artifactId>jmh-generator-annprocess</artifactId>
       <version>${jmh.version}</version>
       <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>brave</artifactId>
+      <version>${project.version}</version>
     </dependency>
 
     <dependency>

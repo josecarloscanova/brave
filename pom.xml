@@ -70,6 +70,7 @@
   </properties>
 
   <modules>
+    <module>brave</module>
     <module>brave-core</module>
     <module>brave-benchmarks</module>
     <module>brave-http</module>
@@ -170,7 +171,8 @@
         <dependency>
             <groupId>com.google.auto.value</groupId>
             <artifactId>auto-value</artifactId>
-            <version>1.1</version>
+            <!-- for lazy -->
+            <version>1.4-rc1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
